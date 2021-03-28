@@ -1,0 +1,12 @@
+{
+  "name": "5ちゃんねる拡張-React",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "5ちゃんねる拡張-React",
+  "content_scripts": [
+    {
+      "matches": ["https://*.5ch.net/*"],
+      "js": ["./dist/app.js"]
+    }
+  ]
+}
