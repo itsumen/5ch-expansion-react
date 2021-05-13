@@ -7,6 +7,10 @@
     {
       "matches": ["https://*.5ch.net/*"],
       "js": ["./dist/app.js"]
+    },
+    {
+      "matches": ["https://www.kyodemo.net/sdemo/r/*"],
+      "js": ["./src/link.js"]
     }
   ]
 }
